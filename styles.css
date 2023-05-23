@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", "Poppins", sans-serif;
+  box-sizing: border-box;
+  color: #292643;
+}
+
+/* Section 1 - header & main text */
+
+.header {
+  width: 100%;
+  position: fixed;
+  background: #e99e75;
+  color: #292643;
+}
+
+.header {
+  top: 0;
+  padding: 10px;
+}
+
+nav a {
+  color: #292643;
+  text-decoration: none;
+  padding: 8px 25px;
+  display: inline-block;
+}
+/* Section 2 - information text */
+
+/* Section 3 - quote text */
+
+/* Section 4 - call to action */
+
+/* footer */
+.container-five {
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  font-size: 10px;
+  background: #e99e75;
+  color: #292643;
+  bottom: 0;
+  padding: 20px;
+}
