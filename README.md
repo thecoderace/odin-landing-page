@@ -20,7 +20,7 @@ This project showcases my acquired knowledge of the following:
 	* creating divs
 	* working with Flexbox!
 - Basic CSS knowledge consisting of:
-	* linkin stylesheets
+	* linking stylesheets
 	* styling html elements
 	* TBA...
 
