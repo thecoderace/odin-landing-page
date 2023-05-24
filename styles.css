@@ -10,23 +10,46 @@
 
 /* Section 1 - header & main text */
 
-.header {
-  width: 100%;
-  position: fixed;
-  background: #e99e75;
+.header-container-one {
   color: #292643;
+  background-color: #e99e75;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.logo,
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+.header {
+  width: 900px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.header {
-  top: 0;
-  padding: 10px;
+.one,
+.two,
+.three {
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-nav a {
-  color: #292643;
-  text-decoration: none;
-  padding: 8px 25px;
-  display: inline-block;
+.header-container-two {
+  background-color: #e99e75;
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.main {
+  font-size: 48px;
 }
 /* Section 2 - information text */
 
@@ -35,15 +58,13 @@ nav a {
 /* Section 4 - call to action */
 
 /* footer */
-.container-five {
-  text-align: center;
-}
 .footer {
   width: 100%;
   position: fixed;
-  font-size: 10px;
+  font-size: 12px;
   background: #e99e75;
   color: #292643;
   bottom: 0;
   padding: 20px;
+  text-align: center;
 }
