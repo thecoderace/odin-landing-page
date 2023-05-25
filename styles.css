@@ -8,9 +8,12 @@
   color: #292643;
 }
 
+body {
+  height: 100vh;
+}
 /* Section 1 - header & main text */
 
-.header-container-one {
+.header-container {
   color: #292643;
   background-color: #e99e75;
   padding: 20px 0;
@@ -37,7 +40,7 @@
   font-weight: 600;
 }
 
-.header-container-two {
+.container-main {
   background-color: #e99e75;
   padding: 120px 0;
   display: flex;
@@ -60,11 +63,11 @@
 /* footer */
 .footer {
   width: 100%;
-  position: fixed;
   font-size: 12px;
+  position: fixed;
   background: #e99e75;
   color: #292643;
   bottom: 0;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
 }
