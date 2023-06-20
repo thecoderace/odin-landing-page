@@ -22,7 +22,7 @@ This project showcases my acquired knowledge of the following:
 - Basic CSS knowledge consisting of:
 	* linking stylesheets
 	* styling html elements
-	* TBA...
+	* basic Flexbox knowledge!
 
 ---
 
