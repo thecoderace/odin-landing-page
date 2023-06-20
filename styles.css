@@ -39,6 +39,60 @@
   color: #292643;
 }
 
+/* Section 1 - main title, text & img */
+.section {
+  width: 100%;
+  background-color: #e99e75;
+  padding: 65px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.section-left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 450px;
+}
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #292643;
+  display: flex;
+  align-items: flex-start;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #292643;
+  display: flex;
+  padding: 10px 0;
+  align-items: flex-start;
+}
+
+.button {
+  background-color: #776483;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 8px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.section-right {
+  max-width: 550px;
+  display: flex;
+  align-items: flex-end;
+}
+
+img {
+  width: 100%;
+  border-radius: 2em;
+}
+
 /* Section 2 - information text */
 
 /* Section 3 - quote text */
