@@ -5,55 +5,40 @@
   padding: 0;
   font-family: "Playfair Display", "Poppins", sans-serif;
   box-sizing: border-box;
+  text-decoration: none;
   color: #292643;
 }
 
-body {
-  height: 100vh;
-}
-/* Section 1 - header & main text */
-
-.header-container {
-  color: #292643;
-  background-color: #e99e75;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-.logo,
-.main {
-  display: flex;
-  justify-content: flex-start;
-  align-self: flex-start;
-}
+/* Section 1 - header/nav */
 .header {
-  width: 900px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.one,
-.two,
-.three {
-  margin-left: 30px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.container-main {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  color: #292643;
   background-color: #e99e75;
-  padding: 120px 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+  z-index: 100;
 }
+
 .logo {
   font-size: 24px;
   font-weight: 900;
+  margin-left: 80px;
 }
 
-.main {
-  font-size: 48px;
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  margin-left: 2px;
+  margin-right: 80px;
+  color: #292643;
 }
+
 /* Section 2 - information text */
 
 /* Section 3 - quote text */
