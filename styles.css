@@ -149,6 +149,33 @@ p {
 }
 
 /* Section 4 - call to action */
+.section-four {
+  padding: 85px 150px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: #e99e75;
+}
+
+.cta {
+  background-color: #776483;
+  border-radius: 8px;
+  color: #e99e75;
+  display: flex;
+  padding: 65px 85px;
+  justify-content: space-around;
+}
+
+.cta-button {
+  background-color: #e99e75;
+  color: #292643;
+  padding: 5px 20px;
+  border-radius: 8px;
+  border: 2px solid white;
+  cursor: pointer;
+}
 
 /* footer */
 .footer {
