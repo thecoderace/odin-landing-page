@@ -150,25 +150,40 @@ p {
 
 /* Section 4 - call to action */
 .section-four {
-  padding: 85px 150px;
-  margin: 20px;
-  flex-wrap: wrap;
-}
-
-h3 {
-  color: #e99e75;
-}
-
-.cta {
+  margin: 100px 185px;
+  padding: 45px;
   background-color: #776483;
   border-radius: 8px;
   color: #e99e75;
   display: flex;
-  padding: 65px 85px;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.left-section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.title-two {
+  color: #e99e75;
+  display: flex;
+  align-items: flex-start;
+}
+
+.subtext-two {
+  font-size: 16px;
+  color: #292643;
+  display: flex;
+  padding: 10px 0;
+  align-items: flex-start;
 }
 
 .cta-button {
+  display: flex;
+  align-self: center;
   background-color: #e99e75;
   color: #292643;
   padding: 5px 20px;
